@@ -1,3 +1,6 @@
+#This R project combines 3 years worth of raw data of COVID 19 in the US from github that was then used to analyse 
+#the mortality rate pers state and whole nation.
+
 install.packages("tidyverse")
 library(tidyverse)
 library(readr)
@@ -14,7 +17,6 @@ dates_range <- seq(start_date, end_date, by = "days")
 
 result <- character(length(dates_range))
 
-#used chatgpt for the loop
 for (i in seq_along(dates_range)) {
   result[i] <- paste0(URL, format(dates_range[i], format = "%m-%d-%Y"), ".csv")
   print(result[i])
