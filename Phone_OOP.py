@@ -1,3 +1,6 @@
+#this program utilizes "class" to make attributes for a normal smart phone containing 
+#phone plan and network
+
 from re import S
 from typing import Optional
 
