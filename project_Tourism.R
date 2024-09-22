@@ -19,7 +19,7 @@ names(tourism_data)[1] <- "Country"
 
 #years range can be changed from up here
 plot_custom_countries <- function(data, ..., starting_year = 1995, ending_year = 2017) {
-  # used chatgpt to convert the year columns to numeric
+  # convert the year columns to numeric
   year_columns <- as.character(starting_year:ending_year)
   
   tour_plot <- data %>%
