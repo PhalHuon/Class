@@ -2,8 +2,8 @@
 
 #used excel to clean data
 
-#install.packages("tidyverse")
-#install.packages("read_xl")
+install.packages("tidyverse")
+install.packages("read_xl")
 
 library(tidyverse)
 library(ggplot2)
