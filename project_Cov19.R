@@ -22,7 +22,7 @@ for (i in seq_along(dates_range)) {
   print(result[i])
 }
 
-#used chatgpt for this merging all the tables together into 1 dataframe
+#merge all the tables together into 1 dataframe
 merged_df <- data.frame()
 
 for (i in seq_along(dates_range)) {
